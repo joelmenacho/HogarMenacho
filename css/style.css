@@ -44,7 +44,7 @@ h3 {
 
 /* Header */
 .header {
-    margin-top: 2rem;
+    margin-top: 0.125rem;
     padding: var(--padding);
     background-color: var(--primario);
 }
@@ -77,15 +77,19 @@ h3 {
     }
 }
 
-.header .menu a {
+.menu a {
     color: var(--claro);
     text-decoration: none;
     font-size: 1.2rem;
 }
 
-.header .menu a :hover{
-    color: var(--secundario);
+.header .menu a:hover{
+    border: 1px solid var(--primario);
+    background-color: var(--claro);
+    color: var(--primario);
 }
+
+
 /** Nosotros **/
 .nosotros {
     margin-top: 2rem;
