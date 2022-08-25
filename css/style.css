@@ -17,6 +17,10 @@ body {
 img {
     max-width: 100%;
 }
+
+img:hover{
+    border: 1px solid #eeeeee;
+}
 p {
     line-height: 2rem;
     font-size: 1rem;
@@ -87,6 +91,7 @@ h3 {
     border: 1px solid var(--primario);
     background-color: var(--claro);
     color: var(--primario);
+    padding: 0%;
 }
 
 
@@ -138,7 +143,16 @@ h3 {
     }
 }
 
-
+.wave {
+    margin: 0px;
+    color: var(--primario);
+  }
+  
+  .wave__img {
+    display: block;
+    width: 100%;
+    color: var(--primario);
+  }
 
 @media (min-width:768px) {
     .venta {
@@ -159,7 +173,10 @@ h3 {
     padding: var(--padding);
     border:1px solid #AAA;
 }
+
+
 .card:hover{
+    border: 1px solid #0072ad;
     box-shadow: #ff143b;
 }
 
@@ -182,7 +199,6 @@ h3 {
     background-color: var(--primario);
     display: block;
     padding: var(--padding);
-
     text-align: center;
     color: var(--claro);
     text-decoration: none;
@@ -197,13 +213,14 @@ h3 {
     color: var(--primario);
 }
 
-/* Footer */
+
 .footer {
     background-color: var(--primario);
     padding-top: var(--paddingt);
-    margin-top: 2rem;
+    margin-top: opx;
     color: var(--claro);
-    padding-right: 2rem;
+    padding-right: 0px;
+    width: 100%;
 }
 
 @media (min-width:768px) {
@@ -214,7 +231,8 @@ h3 {
         margin-right: 2rem;
         align-content: center;
         padding-right: 0%;
-        row-gap: 0;
+        row-gap: 5;
+        width: 100%;
     }
 }
 
